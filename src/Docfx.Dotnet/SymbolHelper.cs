@@ -3,6 +3,8 @@ using Microsoft.CodeAnalysis;
 
 #nullable enable
 
+
+
 namespace Docfx.Dotnet;
 
 internal static class SymbolHelper

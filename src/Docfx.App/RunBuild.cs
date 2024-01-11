@@ -22,6 +22,8 @@ internal static class RunBuild
         if (config.Template == null || config.Template.Count == 0)
         {
             config.Template = new ListWithStringFallback { "default" };
+
+
         }
 
         var baseDirectory = Path.GetFullPath(string.IsNullOrEmpty(configDirectory) ? Directory.GetCurrentDirectory() : configDirectory);
